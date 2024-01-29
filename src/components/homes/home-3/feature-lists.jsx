@@ -4,17 +4,17 @@ import React from "react";
 const feature_data = [
   {
     id: 1,
-    title: "Mobile First Approach",
+    title: "Social Focus",
     duration: "1000",
   },
   {
     id: 2,
-    title: "Improving Reliability",
+    title: "Reliable Results",
     duration: "1500",
   },
   {
     id: 3,
-    title: "WireFrame Mode",
+    title: "Visual Impact",
     duration: "2000",
   },
   {
@@ -23,6 +23,8 @@ const feature_data = [
     duration: "2500",
   },
 ];
+
+
 
 
 const FeatureLists = () => {
