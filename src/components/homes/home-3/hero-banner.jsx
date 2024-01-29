@@ -1,5 +1,5 @@
 import React from "react";
-import  Link  from 'next/link';
+import Link from 'next/link';
 import Tilt from "react-parallax-tilt";
 import { TypeAnimation } from "react-type-animation";
 
@@ -13,32 +13,26 @@ const HeroBanner = () => {
           <div className="row">
             <div className="col-lg-5">
               <div className="da-hero-section mt-40">
-                <span className="da-hero-section__subtitle white-bg mb-15 d-inline-block wow tpfadeUp">
-                  Digital Experience In <b> NYC </b>
-                </span>
                 <div className="cd-intro">
-                  <h3
-                    className="da-hero-section__title cd-headline loading-bar mb-45 wow tpfadeUp"
-                    data-wow-delay=".3s"
-                  >
-                    <span>Solid product experiences is that </span>
-                    <span className="cd-words-wrapper text_style" >
-
-                    <TypeAnimation
-                          sequence={[
-                            'Convert.', 
-                            1000,
-                            'Branding', 
-                            3000,
-                            'Business', 
-                          ]}
-                          wrapper="div"
-                          cursor={false}
-                          repeat={Infinity}
-                          // style={{ textDecorationLine: "underline" }}
-                        />  
+                  <h3 className="da-hero-section__title cd-headline loading-bar mb-45 wow tpfadeUp" data-wow-delay=".3s">
+                    <span>Revolutionize your business with </span>
+                    <span className="cd-words-wrapper text_style">
+                      <TypeAnimation
+                        sequence={[
+                          'Cutting-edge Solutions.',
+                          1000,
+                          'Digital Expertise.',
+                          3000,
+                          'MarketXpose Advantage.',
+                        ]}
+                        wrapper="div"
+                        cursor={false}
+                        repeat={Infinity}
+                      />
                     </span>
                   </h3>
+
+
                 </div>
               </div>
               <div
@@ -74,31 +68,31 @@ const HeroBanner = () => {
               data-tilt-perspective="2000"
               data-wow-delay=".3s"
             >
-            <Tilt
-              className="tilt-img"
-              tiltMaxAngleX={5}
-              tiltMaxAngleY={5}
-              perspective={900}
-              transitionSpeed={1000}
-              gyroscope={true}
+              <Tilt
+                className="tilt-img"
+                tiltMaxAngleX={5}
+                tiltMaxAngleY={5}
+                perspective={900}
+                transitionSpeed={1000}
+                gyroscope={true}
               >
-           
-              <div className="tp-da-hero-img text-end pr-30">
-                <img src="/assets/img/hero/da-hero-img.jpg" alt="" />
-              </div>
-              <div className="da-hero-black-box bg-black float-end">
-                <span>
-                  <a href="mailto:info@genico.com">info@genico.com</a>
-                </span>
-                <span className="float-end">
-                  <a href="mailto:info@genico.com">
-                    Our Portfolio <i className="fal fa-long-arrow-right"></i>
-                  </a>
-                </span>
-              </div>
-            </Tilt>
+
+                <div className="tp-da-hero-img text-end pr-30">
+                  <img src="/assets/img/hero/da-hero-img.jpg" alt="" />
+                </div>
+                <div className="da-hero-black-box bg-black float-end">
+                  <span>
+                    <a href="mailto:team@marketxpose.com">team@marketxpose.com</a>
+                  </span>
+                  <span className="float-end">
+                    <a href="mailto:team@marketxpose.com">
+                      Our Portfolio <i className="fal fa-long-arrow-right"></i>
+                    </a>
+                  </span>
+                </div>
+              </Tilt>
             </div>
-          
+
 
 
           </div>
