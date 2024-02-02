@@ -23,7 +23,7 @@ const HeaderThree = () => {
                 <div className="col-xl-3 col-3">
                   <div className="logo">
                     <Link href="/">
-                      <img style={{height:"50px"}} src="/assets/img/logo/logo.png" alt="logo" />
+                      <img style={{height:"50px"}} src="https://res.cloudinary.com/dua8sce9b/image/upload/v1706893646/logo2_ktztoz.png" alt="logo" />
                     </Link>
                   </div>
                 </div>
