@@ -65,8 +65,8 @@ const service_data = [
     ],
   },
   {
-    id: 5,
-    counter: "05",
+    id: 6,
+    counter: "06",
     title:  <> Funnel  <br /> Building </> ,
     des:  <>We can help you create a simple funnel that captures your leads and converts them into buyers</>,
     delay: ".5s",
@@ -83,7 +83,7 @@ const service_data = [
 const ServiceArea = () => {
   return (
     <>
-      <div className="tp-da-service-area pt-110 pb-90">
+      <div id="services" className="tp-da-service-area pt-110 pb-90">
         <div className="container">
           <div className="row">
             <div className="col-12">
