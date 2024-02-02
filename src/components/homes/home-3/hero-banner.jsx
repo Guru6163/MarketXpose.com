@@ -20,10 +20,11 @@ const HeroBanner = () => {
                       <TypeAnimation
                         sequence={[
                           'Cutting-edge Solutions.',
-                          1000,
+                          2000,
                           'Digital Expertise.',
                           3000,
                           'MarketXpose Advantage.',
+                          4000
                         ]}
                         wrapper="div"
                         cursor={false}
