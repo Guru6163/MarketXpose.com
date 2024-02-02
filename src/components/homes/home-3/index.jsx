@@ -23,11 +23,8 @@ const HomeThree = () => {
       <About />
       <ServiceArea />
       <CtaArea />
-      <ProjectArea />
-      <PricePlan />
-      <OurTeam />
-      <Testimonial />
-      <BlogArea />
+      {/* <Testimonial />
+      <BlogArea /> */}
       <FooterThree />
     </>
   );

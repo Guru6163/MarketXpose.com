@@ -8,7 +8,7 @@ const CtaArea = () => {
         className="da-cta-section d-none d-lg-block wow tpfadeUp"
         data-wow-delay=".3s"
       >
-        <div className="container">
+        <div className="container mb-80">
           <div
             className="da-cta-area pt-45 pb-45"
             style={{backgroundImage: `url(/assets/img/cta/da-pattern.png)`}}
