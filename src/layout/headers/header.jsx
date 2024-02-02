@@ -46,7 +46,7 @@ const Header = ({style_home_one}) => {
                      <div className="col-xxl-2 col-xl-2 col-6">
                         <div className="logo border-right">
                            <Link href="/">
-                              <img style={{height:"50px"}} src="/assets/img/logo/logo1.png" alt="logo" />
+                              <img style={{height:"50px"}} src="/assets/img/logo/logo.png" alt="logo" />
                            </Link>
                         </div>
                      </div>
