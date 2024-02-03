@@ -28,16 +28,16 @@ const FooterThree = ({style_4}) => {
                                     <span className="call-icon"><img src="/assets/img/footer/footer-rbg-call.png"
                                             alt="" /></span>
                                     <span>
-                                         <span className="d-block mb-0">1300 Don City, NYC</span>
-                                        <b><a href="callto:0002229090"> Call Us: 000-222-9090 </a></b>
+                                         <span className="d-block mb-0">Near Bustand, Arni, Tamilnadu</span>
+                                        <b><a href="callto:0002229090"> Call Us: +91-9940616163 </a></b>
                                     </span>
                                 </div>
                                 <div className="tp-footer-cta d-flex align-items-center mb-30">
                                     <span className="call-icon"><img src="/assets/img/footer/message-rgb-ison.png"
                                             alt="" /></span>
                                     <span>
-                                        <span className="d-block mb-0">1300 Don City, N</span>
-                                        <b><a href="mailto:info@MarketXpose.com"> info@MarketXpose.com </a></b>
+                                        <span className="d-block mb-0">Near Bustand, Arni, Tamilnadu </span>
+                                        <b><a href="mailto:info@MarketXpose.com"> team@marketxpose.com </a></b>
                                     </span>
                                 </div>
                             </div>
@@ -74,8 +74,6 @@ const FooterThree = ({style_4}) => {
 
                     </div>
                 </div>
-                
-                <FooterCopyRight style_3={true} />
                
             </div>
             {style_4 && <div className="bs-footer__circle d-none d-lg-block"></div>}   

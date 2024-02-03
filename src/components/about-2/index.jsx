@@ -7,6 +7,7 @@ import AboutPageAbout from "./about-page-about";
 import FeatureArea from "./feature-area";
 import OurTeam from "./our-team";
 import HeaderThree from "@/src/layout/headers/header-3";
+import FooterThree from "@/src/layout/footers/footer-3";
 
 const AboutTwo = () => {
   return (
@@ -14,7 +15,7 @@ const AboutTwo = () => {
       <HeaderThree />
       <BreadcrumbArea acive_menu="About" title="Abous Us" />
       <AboutPageAbout />
-      <Footer />
+      <FooterThree />
     </>
   );
 };

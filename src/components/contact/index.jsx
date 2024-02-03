@@ -6,6 +6,7 @@ import React from "react";
 import ContactArea from "./contact-area";
 import HeaderThree from "@/src/layout/headers/header-3";
 import RequestSubmitForm from "@/src/forms/request-submit-form";
+import FooterThree from "@/src/layout/footers/footer-3";
 
 const Contact = () => {
   return (
@@ -15,7 +16,7 @@ const Contact = () => {
       <RequestSubmitForm/>
       <ContactArea />
       <MapArea />
-      <Footer />
+      <FooterThree />
     </>
   );
 };
