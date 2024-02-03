@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <Wrapper>
       <SEO pageTitle={"MarketXpose"} />
-       <HomeThree />
+      <HomeThree />
     </Wrapper>
   );
 };

@@ -7,11 +7,12 @@ import AbFactArea from "./ab-fact-area";
 import AboutDeatialsArea from "./about-deatials-area";
 import CtaAre from "./cta-are";
 import TeamArea from "./team-area";
+import HeaderThree from "@/src/layout/headers/header-3";
 
 const About = () => {
   return (
     <>
-      <Header />
+      <HeaderThree />
       <BreadcrumbArea />
       <AboutArea style_about={true} />
       <AbFactArea />

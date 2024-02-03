@@ -22,7 +22,7 @@ const social_links = [
   {
     link: "https://www.youtube.com/",
     target: "_blank",
-    icon: "fab fa-youtube",
+    icon: "fa-brands fa-square-instagram",
     name: "Youtube",
   },
 ];

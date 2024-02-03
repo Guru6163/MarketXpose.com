@@ -6,16 +6,14 @@ import AbFactAreaTwo from "./ab-fact-area-2";
 import AboutPageAbout from "./about-page-about";
 import FeatureArea from "./feature-area";
 import OurTeam from "./our-team";
+import HeaderThree from "@/src/layout/headers/header-3";
 
 const AboutTwo = () => {
   return (
     <>
-      <Header />
-      <BreadcrumbArea acive_menu="About V2" title="Our Company History" />
+      <HeaderThree />
+      <BreadcrumbArea acive_menu="About" title="Abous Us" />
       <AboutPageAbout />
-      <FeatureArea />
-      <AbFactAreaTwo />
-      <OurTeam />
       <Footer />
     </>
   );

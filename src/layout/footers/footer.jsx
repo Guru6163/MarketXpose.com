@@ -64,14 +64,14 @@ const Footer = ({tp_border}) => {
                   <div className="col-6">
                     <div className="bs-footer__top-logo">
                       <a href="#">
-                        <img src={footer_logo} alt="brand-logo" />
+                        <img style={{height:"50px"}} src="https://res.cloudinary.com/dua8sce9b/image/upload/v1706893646/logo2_ktztoz.png" alt="brand-logo" />
                       </a>
                     </div>
                   </div>
                   <div className="col-6 text-md-end">
                     <div className="bs-footer__top-social">
 
-                     <SocialLinks />
+                     {/* <SocialLinks /> */}
                       
                     </div>
                   </div>
