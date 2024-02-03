@@ -36,8 +36,8 @@ const HeaderThree = () => {
                 </div>
                 <div className="col-xl-3 d-none d-xl-block">
                   <div className="da-header-cta-btn float-end mt-35">
-                    <a href="#" className="tp-grd-btn">
-                      Get Quote
+                    <a href="/contact" className="tp-grd-btn">
+                      Connect with Us
                       <span className="ml-10">
                         <i className="fal fa-long-arrow-right"></i>
                         <i className="fal fa-long-arrow-right"></i>
@@ -45,7 +45,7 @@ const HeaderThree = () => {
                     </a>
                     <p className="mt-10 mb-0">
                       or <b>call:</b>
-                      <a href="tel:+89700011102">+897 000 111 02 </a>
+                      <a href="tel:+919940616163">+91 9940616163 </a>
                     </p>
                   </div>
                 </div>
