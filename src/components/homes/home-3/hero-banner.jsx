@@ -59,7 +59,7 @@ const HeroBanner = () => {
                   </span>
                 </div>
               </div>
-              <div
+              {/* <div
                 className="da-header-gey-btn d-inline-block mb-30 wow tpfadeUp"
                 data-wow-delay=".5s"
               >
@@ -71,7 +71,7 @@ const HeroBanner = () => {
                   </span>
                   <b></b>
                 </Link>
-              </div>
+              </div> */}
             </div>
 
             <div
