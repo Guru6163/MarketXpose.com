@@ -58,7 +58,7 @@ const About = () => {
                 </div>
                 <div className="tp--indo-btns d-flex flex-wrap align-items-center">
                   <div className="tp-da-link-btn mr-30 mb-30">
-                    <Link href="/contact" className="tp-grd-btn">
+                    <Link href="https://calendly.com/market-xpose/marketxpose-strategy-meeting" className="tp-grd-btn">
                       connect with us
                       <span className="ml-10">
                         <i className="fal fa-long-arrow-right"></i>

@@ -24,7 +24,7 @@ const CtaArea = () => {
               </div>
               <div className="col-xl-4 d-none d-lg-block">
                 <div className="da-cta-wraper mr-60 text-end">
-                  <Link href="/contact" className="tp-grd-btn">
+                  <Link href="https://calendly.com/market-xpose/marketxpose-strategy-meeting" className="tp-grd-btn">
                     Get In Touch
                     <span className="ml-10">
                       <i className="fal fa-long-arrow-right"></i>

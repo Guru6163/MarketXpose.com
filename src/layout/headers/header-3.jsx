@@ -36,7 +36,7 @@ const HeaderThree = () => {
                 </div>
                 <div className="col-xl-3 d-none d-xl-block">
                   <div className="da-header-cta-btn float-end mt-35">
-                    <a href="/contact" className="tp-grd-btn">
+                    <a href="https://calendly.com/market-xpose/marketxpose-strategy-meeting" className="tp-grd-btn">
                       Connect with Us
                       <span className="ml-10">
                         <i className="fal fa-long-arrow-right"></i>
